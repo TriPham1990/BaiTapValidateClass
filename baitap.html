@@ -6,7 +6,7 @@
 </head>
 <body>
 <script>
-    let regexp = /^[ACP]+[0-9]{4}[GHIKLM]$/;
+    let regexp = /^[ACP][0-9]{4}[GHIKLM]$/;
     function is_validateClass(str) {
         if(regexp.test(str)){
             alert("TRUE!");
