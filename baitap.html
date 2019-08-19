@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check Class</title>
+</head>
+<body>
+<script>
+    let regexp = /^[ACP]+[0-9]{4}[GHIKLM]$/;
+    function is_validateClass(str) {
+        if(regexp.test(str)){
+            alert("TRUE!");
+        }else{
+            alert("FALSE!");
+        }
+    }
+    let nameClass = prompt();
+    is_validateClass(nameClass)
+</script>
+</body>
+</html>
